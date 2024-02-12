@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Garden Supply</title>
+    <link rel="icon" type="image/png" href="download__1_-removebg-preview.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="download__1_-removebg-preview.png" alt="myonlinemeal.com">
+        </div>
+        <ul>
+            <li class="item"><a>Home</a></li>
+            <li class="item"><a>Services</a></li>
+            <li class="item"><a>About</a></li>
+            <li class="item"><a>Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Get your favorite Organic Vegetables right to your door.</h1>
+    <p> Nourish your body and soul with the freshest, most flavorful organic produce grown with care and respect for the environment.
+    </p>
+    <div class="items">
+        <h1 id="section">Items</h1>
+        <div id="order_row">
+        <div id="order_col">
+            <h3 id="veggie">Vegetables</h3>
+            <div class="box">
+                <div id="image">
+                <img src="spinach.webp" alt="">
+                </div>
+            <div>
+                <h3>Fresh Spinach</h3>
+                <h4>Rs : 10</h4>
+            </div>    
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+    <table>
+       
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <h2>Order Fresh</h2>
+                    <div>
+                        <label for="Productcode">product code </label>
+                        <input type="text" name ="productcode" id="productcode">
+                    </div>
+                    <div>
+                        <label for="Product">product name </label>
+                        <input type="text" name ="product" id="product">
+                    </div>
+                    <div>
+                        <label for="Quantity"> qty </label>
+                        <input type="number" name ="quantity" id="quantity">
+                    </div>
+                    <div>
+                        <label for="PricePer">price</label>
+                        <input type="number" name ="priceper" id="priceper">
+                    </div>
+                    <div class="form_submit">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </div>
+                </form>
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>product code</th>
+                                <th>product</th>
+                                <th>quantity</th>
+                                <th>price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

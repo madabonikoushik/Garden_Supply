@@ -1,0 +1,196 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Baloo Bhai',cursive; */
+
+body{
+ background-image: url('organic-fresh-vegetables-white-background-flat-lay_169016-23148.avif');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+#logo{
+    margin: 24px 40px;
+}
+.logo img{
+    margin: 3px 6px;
+    height: 20px;
+}
+#navbar{
+    display: flex;
+    text-align: right;
+    align-items: center;
+}
+#navbar ::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai',cursive;
+}
+#navbar ul li{
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: #4b99d8;
+}
+#items{
+    padding: 25px 0 25px 0;
+}
+#section{
+    padding: 25px 0 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana;
+}
+#order_row{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+#order_col{
+    box-shadow: 2px 2px 2px #bbb;
+    border: 2px solid #bbb ;
+    background-color: #fff;
+    margin: 5px;
+    height: 246px;
+    width: 162px;
+} 
+#order_col h2{
+    background-color: gray;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 4px 15px;
+    border: 2px solid gray;
+
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-left: 1px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Martel Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: black;
+/* font-weight: ; */
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: large;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+#veggie{
+    padding-left: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    margin: 10px;
+    padding: 2px;
+}
+.box{
+    margin: 11px;
+}
+h4{
+    padding: 0px 39px;
+}
+h2{
+    padding-left: 206px;
+    padding-bottom: 20px;
+    color: black;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(124,154,167);    
+    font-family: sans-serif;
+    color: beige;
+    background-color: brown;
+}
+table.list{
+    text-align: center;
+    width: 100%;
+}
+td{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: left;
+    padding: 8px 15px;
+}
+tr:nth-child(even),table.list thread> tr{
+    background-color: white;
+}
+input[type="text"],input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+     margin: 8px 0px ;
+     display: inline-block;
+     border: 1px solid black;
+     border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+    background:white ;
+    padding: 12px 20px;
+     margin: 15px 0px 10px ;
+     display: inline-block;
+     border: none;
+     border-radius: 30px;
+     font-size: 1rem;
+     cursor: pointer;
+     outline: none;     
+}
+input[type="submit"]:hover{
+    background:#4b99d8;
+}
+input[type="reset"]:hover{
+    background:#4b99d8;
+}
+button{
+    background:white ;
+    padding: 12px 20px;
+     margin: 15px 0px 10px ;
+     display: inline-block;
+     border: none;
+     border-radius: 30px;
+     font-size: 1rem;
+     cursor: pointer;
+     outline: none;
+}
+button:hover{
+    background:#4b99d8;
+}
